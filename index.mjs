@@ -1,6 +1,6 @@
 #!/usr/bin/env zx
 
-const { client, messageCache } = require("imports");
+const { client, messageCache } = require("./imports");
 
 client.connect().catch(console.error);
 
