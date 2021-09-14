@@ -1,0 +1,28 @@
+{
+  "name": "Better-Twitch-Things",
+  "version": "1.0.0",
+  "description": "Twitch bot designed to add new things to twitch you can't normally do",
+  "main": "imports.js",
+  "dependencies": {
+    "data-store": "^4.0.3",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "sqlite-async": "^1.1.1",
+    "tmi.js": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timemaster111/Better-Twitch-Things.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timemaster111/Better-Twitch-Things/issues"
+  },
+  "homepage": "https://github.com/Timemaster111/Better-Twitch-Things#readme"
+}
