@@ -1,7 +1,9 @@
 const tmi = require("tmi.js");
+const store = require("data-store")({ path: "channels.json" });
+const channels = store.get("channels");
 require("dotenv").config();
 const client = new tmi.Client({
-  channels: ["Timemaster69"],
+  channels: ["Timemaster69"].concat(channels),
   options: {
     debug: true,
     messageLogLevel: "info",
