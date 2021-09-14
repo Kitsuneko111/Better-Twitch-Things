@@ -9,3 +9,5 @@ Twitch bot designed to add new things to twitch you can't normally do
   - Bans the user if they had!
 - ID checks
   - Takes note of the ID of the user and updates the username
+- Anti Bots!
+  - a certain well known bot is automatically banned, and support will be added to add your own blacklisted names (when the discord server exists you can request global bans and updated checks for them)
